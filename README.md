@@ -5,7 +5,11 @@ Metacritic is a web site containing details about movies, games etc. in differen
 
 ### Objective:
 To scrape metacritic site for all PC Games(~5000 available)using BeautifulSoup and requests, use User-Agents to bypass bot detection and scrape all pages(40). To extract meaningful information which will be further processed and used to build a Game Recommender System.
+Shown below is the look of Metacritic site. There are 40+ pages with 100 games on each page, sorted by decreasing order of Metascore rating.
 
+![image](https://user-images.githubusercontent.com/35566625/142235099-0122d739-4a23-4c1d-8787-280d17320114.png)
+
+Our task is to scrape all of these pages and arrange them to form a structured and meaningful dataset with Data Dictionary as shown below.
 ### Domain:
 Entertainment
 
